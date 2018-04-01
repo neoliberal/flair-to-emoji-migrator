@@ -10,6 +10,7 @@ import config
 
 def main() -> None:
     images_dict: Dict[str, Path] = images()
+    upload(images_dict)
     return
 
 def images() -> Dict[str, Path]:
